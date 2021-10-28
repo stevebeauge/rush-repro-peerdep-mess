@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.55.1",
+  "pnpmVersion": "6.19.1",
+  "pnpmOptions": {},
+  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0",
+  "gitPolicy": {},
+  "repository": {},
+  "eventHooks": {
+    "preRushInstall": [],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": []
+  },
+  "variants": [],
+  "projects": [
+    {
+      "packageName": "@repro/sharepoint",
+      "projectFolder": "apps/sharepoint"
+    },
+    {
+      "packageName": "@repro/common",
+      "projectFolder": "libs/common"
+    }
+  ]
+}
