@@ -1949,7 +1949,7 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 3.0.5
-      '@types/node': 10.17.13
+      '@types/node': 16.11.6
     dev: false
 
   /@types/graceful-fs/4.1.5:
@@ -6170,7 +6170,7 @@ packages:
     dependencies:
       array-union: 1.0.2
       arrify: 1.0.1
-      glob: 7.2.0
+      glob: 7.0.6
       object-assign: 4.1.1
       pify: 2.3.0
       pinkie-promise: 2.0.1
@@ -6561,7 +6561,7 @@ packages:
       depd: 1.1.2
       inherits: 2.0.3
       setprototypeof: 1.1.0
-      statuses: 1.5.0
+      statuses: 1.4.0
     dev: false
 
   /http-errors/1.7.2:
@@ -8772,7 +8772,7 @@ packages:
     resolution: {integrity: sha512-gjupwQ6nvNL6mZkl5NIXyUmZhTiEMRu5giNdgHMh8l5EPOnV2Xj6nukY1NIxFacSTkEYUSDB47Pej9GxDYf+1w==}
     engines: {node: '>=0.8.0'}
     dependencies:
-      tslib: 1.14.1
+      tslib: 1.10.0
     dev: false
 
   /msal/1.4.13:
@@ -11103,7 +11103,7 @@ packages:
     resolution: {integrity: sha512-VFWDAHOe6mRuT4mZRd4eKE+d8Uedrk6Xnh7Sh9b4NGufQLQjOrvf/MQoOdx+0s92L89FeyUUNfU597j/3uNpag==}
     hasBin: true
     dependencies:
-      glob: 7.2.0
+      glob: 7.0.6
       lodash: 4.17.21
       scss-tokenizer: 0.2.3
       yargs: 13.3.2
@@ -13364,7 +13364,7 @@ packages:
     dev: false
 
   file:projects/common.tgz:
-    resolution: {integrity: sha512-SmRUibp63ep4N5tP6aDblpIXPdpbgYsiRssWH/XlBgBwESKUS2t41wIO09PYsYbfe3OtD3lEqxgTboFWVyV1gw==, tarball: file:projects/common.tgz}
+    resolution: {integrity: sha512-i0yzJDrPj3nQ+6WGFxMU7ZJeHEL8eC60LXk6bf6HFvm3coX3zu+WHXkz6MhT1E6oOivjvKM/z8juLAoP2cqdxw==, tarball: file:projects/common.tgz}
     name: '@rush-temp/common'
     version: 0.0.0
     dependencies:
